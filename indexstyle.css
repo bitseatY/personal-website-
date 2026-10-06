@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+   padding:0;
+   margin:0;
+   box-sizing: border-box;
+   font-family: 'Poppins','sans-serif';
+
+}
+body{
+   background:rgb(17, 13, 46);
+
+
+}
+.container{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding:10px 60px;
+
+}
+.container .logo{
+   color:rgb(224, 103, 123);
+   font-weight: 500;
+   font-size: 20px;
+}
+.container nav{
+   display: flex;
+   gap:20px;
+}
+.container nav a{
+   text-decoration:none;
+   outline: none;
+   color:white;
+   font-size: 15px;
+}
+hr{
+   width: 100%;
+   border-top: 0.5px solid white;
+}
+.box{
+    display: flex;
+    justify-content: space-around;
+}
+.box .intro{
+   width:40%;
+   padding:40px 60px;
+}
+.box .intro .card{
+   width:35%;
+   background-color: rgb(228, 140, 155);
+   color: rgb(48, 34, 48);
+   font-size: 15px;
+   font-weight: 500;
+   padding:3px 5px;
+   margin-bottom: 20px;
+   border-radius: 5px;
+   text-align: center;
+}
+.box .intro .main  h1{
+   font-weight: 500;
+   font-size: 50px;
+   line-height: 1.2;
+   margin-bottom: 20px;
+}
+.box .intro .main h1 .one{
+   color:white;
+
+}
+.box .intro .main h1 .two{
+   color:rgb(224, 103, 123);
+}
+.box .intro .main p{
+   color: white;
+   font-weight: 100;
+   font-size: 20px;
+   margin-bottom: 20px;
+   
+}
+.box .intro .buttons{
+   display: flex;
+   justify-content: space-around;
+   gap:20px;
+}
+.box .intro .buttons a {
+   color:white;
+   text-decoration: none;
+   
+}
+.box .intro .buttons .btn1{
+   background-color: rgb(224, 103, 123);
+   border:1px solid white;
+   padding: 10px;
+}
+.box .intro .buttons .btn2{
+   border:1px solid white;
+   padding: 10px;
+
+}
+
+
+
+
+.box .pic{
+   padding:40px 60px ;
+}
+.box .pic img{
+   width:400px;
+   height: 400px;
+   border-radius: 50%;
+   object-fit: cover;
+}
